@@ -1,56 +1,49 @@
-# 🎬 Netflix Data Analysis 📊
+# 🎬 Netflix Dataset Exploratory Analysis
 
-Welcome to the **Netflix EDA (Exploratory Data Analysis)** project!  
-This notebook dives into Netflix's catalog to uncover insights about the types of content, country-wise trends, genre distribution,
-duration patterns, and much more — all using Python and data visualization libraries.
+This project performs Exploratory Data Analysis (EDA) on the Netflix Movies and TV Shows dataset using Python, Pandas, and Seaborn. 
+It helps uncover insights into content types, rating distribution, country-wise content production, movie durations, and genre trends.
 
 ---
 
-## 📌 Overview
+## 📌 Objectives
 
-This project explores key questions such as:
+This notebook explores:
 
 - What kind of content does Netflix offer more — Movies or TV Shows?
-- Which countries produce the most content on Netflix?
-- What are the most common content ratings and genres?
-- How does the duration of movies vary by rating?
-- Which genres dominate Movies vs TV Shows?
-- Are there patterns in release years or content titles?
+- Which countries produce the most content available on Netflix?
+- What are the most common content ratings?
+- How does movie duration vary by rating?
+- Which genres are more common in Movies vs TV Shows?
 
 ---
 
 ## 🛠️ Tools & Libraries
 
-- **Python**
+- **Python 3**
 - **Pandas** – Data manipulation
-- **Seaborn / Matplotlib** – Data visualization
-- **Jupyter Notebook** – Interactive data analysis
+- **Seaborn** – Data visualization
+- **Matplotlib** – Plot customization
+- **Jupyter Notebook** – Interactive coding environment
 
 ---
 
-## 📁 Contents
+## 📊 Key Analyses Included
 
-| Notebook Section                 | Description                                           |
-|----------------------------------|-------------------------------------------------------|
-| 🔹 Content Type Count            | Visual comparison of Movies vs TV Shows              |
-| 🔹 Rating Distribution           | Bar chart of the most common content ratings         |
-| 🔹 Movie Duration by Rating      | Boxplot showing how duration varies by rating        |
-| 🔹 Country-wise Production       | Top countries producing Netflix content              |
-| 🔹 Genre Analysis                | Heatmap: Genres across Movies and TV Shows           |
-| 🔹 Title Word Frequency          | Most common words in Netflix titles                  |
-| 🔹 Release Year Distribution     | Histogram of content by release year                 |
-| 🔹 Genre Diversity by Country    | Unique genres per country                            |
-| 🔹 Season Count for TV Shows     | Season distribution of series                        |
-| 🔹 Missing Data Overview         | Null value analysis                                  |
+| Section                         | Description                                                  |
+|--------------------------------|--------------------------------------------------------------|
+| 📺 Content Type Count          | Countplot showing Movies vs TV Shows                        |
+| 🔢 Rating Distribution         | Countplot and barplot showing the number of titles by rating |
+| ⏱️ Movie Duration by Rating    | Boxplot showing how movie length varies with rating          |
+| 🌍 Country-wise Content Count  | Top 5 countries with the most Netflix titles                 |
+| 🔥 Genre Heatmap               | Heatmap comparing genres between Movies and TV Shows         |
 
 ---
 
-## 📊 Sample Visuals
+## 📁 Dataset Information
 
-Here are examples of the visualizations used:
-
-- 📦 Boxplots (e.g., Duration vs Rating)
-- 📈 Countplots (e.g., Movies vs TV Shows)
-- 📉 Bar charts (e.g., Top countries, Top genres)
-- 🟡 Heatmaps (e.g., Genre distribution by type)
-- 🧾 Word Clouds or Word Frequencies (for titles)
+The dataset includes:
+- Title, Type (Movie or TV Show)
+- Cast, Country
+- Date Added, Release Year
+- Rating, Duration
+- Genre Categories
